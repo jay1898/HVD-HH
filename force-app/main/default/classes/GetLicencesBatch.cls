@@ -1,4 +1,5 @@
 //Update Code Of 23-11-2024
+//updated For CRM 2
 global class GetLicencesBatch implements Database.Batchable<Object>, Database.AllowsCallouts {
     
     global Database.QueryLocator start(Database.BatchableContext BC) {
